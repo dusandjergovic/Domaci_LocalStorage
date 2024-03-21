@@ -25,17 +25,4 @@ $(document).ready(function() {
         $("#poruka").text(storedMessage);
     }
 
-    // $.ajax({
-    //     url: 'http://api.weatherapi.com/v1/current.json?',
-    //     method: 'GET',
-    //     data: {
-    //         key: 'eaac2ed3fb354158ab080556240503',
-    //         q: userChoice,
-    //         aqi: 'no'
-    //     },
-    //     success:function(response) {
-    //         console.log(response);
-    //     }
-    // })
-
 })
